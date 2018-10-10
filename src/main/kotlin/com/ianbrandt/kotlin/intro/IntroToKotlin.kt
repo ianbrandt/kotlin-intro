@@ -1,7 +1,8 @@
 package com.ianbrandt.kotlin.intro
 
-// Cool things about Kotlin...
-
+/*
+	Cool things about Kotlin...
+*/
 
 // First-class, top-level, functions and properties ✅
 
@@ -17,9 +18,9 @@ fun main() {
 
 // Null safety ✅
 
-// Named and default parameters
+// Functions are expressive in Kotlin ✅
 
-// Data classes
+// Data classes and destructuring declarations
 
 // Super strings
 
@@ -28,8 +29,6 @@ fun main() {
 // if, when, try are expressions
 
 // When is better than switch
-
-// Destructuring declarations
 
 // Built-in singletons
 
