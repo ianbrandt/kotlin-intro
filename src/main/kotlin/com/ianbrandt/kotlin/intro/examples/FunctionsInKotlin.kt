@@ -1,4 +1,4 @@
-package com.ianbrandt.kotlin.intro
+package com.ianbrandt.kotlin.intro.examples
 
 // Functions are "fun" in Kotlin
 fun function() {}
@@ -22,12 +22,13 @@ fun multiply(a: Int, b: Int) = a * b
 // Kotlin is terse like that.
 // Because every function in Kotlin returns something, there's no need for
 // both Consumer<T> and Function<T, R> like in Java.
+// In Kotlin it's just "() -> Unit"
 fun voidish(): Unit {}
 
 // Function parameters are always val
 fun cantTouchThis(i: Int): Int {
 
-	// return ++i // Does not compile
+//	 return ++i // Does not compile
 
 	/* You can assign their value to a mutable var
 	var j = i
@@ -62,7 +63,8 @@ fun namedParams(
 // You can name function parameters to disambiguate default params,
 // or just to make function calls with large numbers of params more clear
 fun useNamedParams() {
-	namedParams(lastName = "Smith", email = "smith@smithery.com")
+	namedParams(lastName = "Smith",
+		email = "smith@smithery.com")
 }
 
 fun main() {

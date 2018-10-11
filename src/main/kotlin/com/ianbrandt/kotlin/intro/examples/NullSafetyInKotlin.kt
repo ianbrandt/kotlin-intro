@@ -1,22 +1,41 @@
-package com.ianbrandt.kotlin.intro
+package com.ianbrandt.kotlin.intro.examples
 
 fun main() {
 
-	var name = ""
+	// Types by default are non-nullable in Kotlin
+
+	var name: String = ""
 	name = "Ezra"
 //	name = null // Does not compile
+
+	// You have to explicitly declare a variable as a nullable type
+	// (if you want that 🤔)
 
 	var nullableName: String? = "Bridger"
 //	nullableName = null
 
+
+
+	// Directly referencing a property or calling a function on a nullable
+	// type is a compile-time error
+
 	println("Non-nullable name length: ${name.length}")
 
 //	println(nullableName.length) // Does not compile
+
+	// Kotlin has the null-safe dereference operator for that
 	println("Safe nullable name length: ${nullableName?.length}")
+
+
+	// The compiler is smart about safe calls on nullable types
+	// This is called "smart casting"
 
 	if (nullableName != null) {
 		println("Smart casted nullable name length: ${nullableName.length}")
 	}
+
+
+	// And there's so much more that we probably don't have time for...
 
 	val possiblyNullNames = listOf("Ezra", null, "Luke")
 

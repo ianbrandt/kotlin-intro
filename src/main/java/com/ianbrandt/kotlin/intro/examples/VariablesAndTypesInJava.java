@@ -1,4 +1,4 @@
-package com.ianbrandt.kotlin.intro;
+package com.ianbrandt.kotlin.intro.examples;
 
 public class VariablesAndTypesInJava {
 	boolean bool; // = false
