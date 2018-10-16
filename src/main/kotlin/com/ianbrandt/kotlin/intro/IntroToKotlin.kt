@@ -60,7 +60,7 @@ package com.ianbrandt.kotlin.intro
 
 
 
-// Kotlin also has first-class, top-level, functions and variables,
+// Kotlin also has first-class, top-level, functions and properties,
 // along with type and semicolon inference. 🎉
 
 private const val MESSAGE = "Hello, World!"
