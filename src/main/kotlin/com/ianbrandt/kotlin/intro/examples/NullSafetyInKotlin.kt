@@ -9,7 +9,7 @@ fun main() {
 //	name = null // Does not compile
 
 	// You have to explicitly declare a variable as a nullable type
-	// (if you want that 🤔)
+	// (if you really want that 🤔)
 
 	var nullableName: String? = "Bridger"
 //	nullableName = null

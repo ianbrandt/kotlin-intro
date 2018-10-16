@@ -63,15 +63,16 @@ package com.ianbrandt.kotlin.intro
 // Kotlin also has first-class, top-level, functions and properties,
 // along with type and semicolon inference. 🎉
 
-private const val MESSAGE = "Hello, World!"
+private val message = "Hello, World!"
+//	get() = "$field ...and aliens!"
 
 fun main() {
-	println(MESSAGE)
+	println(message)
 }
 
 
-// For a full appreciation of how awesome this is, see
-// "Execution in the Kingdom of Nouns" by Steve Yegge
+// For a full appreciation of how awesome top-level functions
+// are see "Execution in the Kingdom of Nouns" by Steve Yegge
 // https://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html
 
 
@@ -154,6 +155,7 @@ fun main() {
 
 
 // But wait, there's more!... 😲
+
 
 // Kotlin has nearly seamless Java interoperability.
 
