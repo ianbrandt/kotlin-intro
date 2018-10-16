@@ -17,13 +17,13 @@ class Class
 // You can explicitly "open" a Kotlin class for inheritance like so...
 open class BaseClass {
 
-	// Kotlin has methods/functions, and they're "fun"! 😏
+	// Kotlin has methods (i.e. functions), and they're "fun"! 😏
 	fun finalFunction() {
 		println("Can't touch this!")
 	}
 
-	// Functions are final in Kotlin by default as well
-	// But they can be opened...
+	// As with classes, functions are final in Kotlin by default
+	// They can of course be opened too...
 	open fun openFunction() {
 		println("Base class implementation")
 	}

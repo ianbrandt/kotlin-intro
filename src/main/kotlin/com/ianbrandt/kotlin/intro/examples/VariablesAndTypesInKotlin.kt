@@ -11,7 +11,7 @@ var j = 0 // non-final Int
 
 val b: Byte = 0 // Type required due to no literal
 
-// Variables aren't defaulted, and must be initialized
+// Variables aren't defaulted; they must be initialized
 
 // Kotlin abstracts away primitives vs wrapper types
 

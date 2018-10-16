@@ -9,7 +9,39 @@ package com.ianbrandt.kotlin.intro
 
 
 
-// Ready for a lightning-quick intro to Kotlin?! ⚡️
+// :07min. Kotlin! ⚡️
+// https://youtu.be/JB2di69FmhE 😂
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Let's say hello! 👋
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Kotlin has classes. 😅
 
 
 
@@ -28,30 +60,8 @@ package com.ianbrandt.kotlin.intro
 
 
 
-
-
-
-// Let's start somewhere familiar for Java developers.
-// Kotlin has classes. ✅
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// But then Kotlin has first-class, top-level, functions and variables too. ✅
+// Kotlin also has first-class, top-level, functions and variables,
+// along with type and semicolon inference. 🎉
 
 private const val MESSAGE = "Hello, World!"
 
@@ -76,8 +86,7 @@ fun main() {
 
 
 
-// Kotlin has type and semicolon inference, super-duper strings,
-// and a pretty nice type system. ✅
+// Kotlin super-duper strings, and a pretty nice variable and type system. 👍
 
 
 
@@ -93,13 +102,13 @@ fun main() {
 
 
 
+// ...in fact, the type system even helps with null safety. 😯
 
 
 
 
 
 
-// ...in fact, the type system even helps with null safety. ✅
 
 
 
@@ -112,6 +121,7 @@ fun main() {
 
 
 
+// Functions are quite expressive in Kotlin. 💃🕺
 
 
 
@@ -122,7 +132,6 @@ fun main() {
 
 
 
-// Functions are quite expressive in Kotlin. ✅
 
 
 
@@ -131,6 +140,7 @@ fun main() {
 
 
 
+// Kotlin has data classes and destructuring declarations. 🤓
 
 
 
@@ -143,23 +153,7 @@ fun main() {
 
 
 
-
-
-// Now the real fun begins, Kotlin has data classes
-// and destructuring declarations.
-
-
-
-
-
-
-
-
-
-
-
-
-
+// But wait, there's more!... 😲
 
 // Kotlin has nearly seamless Java interoperability.
 
