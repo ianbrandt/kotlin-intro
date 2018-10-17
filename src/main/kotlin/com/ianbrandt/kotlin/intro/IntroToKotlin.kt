@@ -10,7 +10,6 @@ package com.ianbrandt.kotlin.intro
 
 
 // :07min. Kotlin! ⚡️
-// https://youtu.be/JB2di69FmhE 😂
 
 
 
@@ -43,6 +42,25 @@ package com.ianbrandt.kotlin.intro
 
 // Kotlin has classes. 😅
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Kotlin has data classes and destructuring declarations. 🤓
 
 
 
@@ -130,18 +148,6 @@ fun main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// Kotlin has data classes and destructuring declarations. 🤓
 
 
 
