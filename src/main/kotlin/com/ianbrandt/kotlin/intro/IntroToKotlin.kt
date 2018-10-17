@@ -9,6 +9,9 @@ package com.ianbrandt.kotlin.intro
 
 
 
+
+
+
 // :07min. Kotlin! ⚡️
 
 
@@ -24,7 +27,12 @@ package com.ianbrandt.kotlin.intro
 
 
 
+
+
+
 // Let's say hello! 👋
+
+
 
 
 
@@ -60,7 +68,13 @@ package com.ianbrandt.kotlin.intro
 
 
 
+
+
+
 // Kotlin has data classes and destructuring declarations. 🤓
+
+
+
 
 
 
@@ -105,7 +119,34 @@ fun main() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Kotlin super-duper strings, and a pretty nice variable and type system. 👍
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -140,7 +181,18 @@ fun main() {
 
 
 
+
+
+
+
+
+
+
+
 // Functions are quite expressive in Kotlin. 💃🕺
+
+
+
 
 
 
