@@ -6,7 +6,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
 	java
-	kotlin("jvm") version "1.3.0-rc-146"
+	kotlin("jvm") version "1.3.0-rc-190"
 	id("com.github.ben-manes.versions") version "0.20.0"
 }
 
@@ -32,10 +32,6 @@ dependencies {
 java {
 	sourceCompatibility = VERSION_1_8
 	targetCompatibility = VERSION_1_8
-}
-
-kotlin {
-	experimental.coroutines = Coroutines.ENABLE
 }
 
 tasks {
